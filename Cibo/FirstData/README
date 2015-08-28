@@ -1,0 +1,49 @@
+README for ApplePayStarterKit v 1.0.0
+(c) 2014 First Data
+
+The Xcode project included in this distribution builds an app
+that demonstrates how easy it is to enable secure In-App payments
+via Apple's ApplePay technology. Apple collaborated with First Data to be
+one of the first payment platforms that is certified to support this
+revolutionary payment method.
+
+The app itself contains a single view controller that allows the user
+to specify a transaction amount and select whether to perform a
+pre-authorization for that amount or an instantaneous purchase.  That transaction
+is routed through the First Data In-App payments SDK to perform an
+ApplePay transaction.
+
+The SDK is implemented via three iOS frameworks that are included in the included project:
+
+- InAppSDK.framework: This is the main framework that supports ApplePay transactions
+
+- PayeezyClient.framework:  This is the iOS client for the Payeezy (RESTful) API
+   backend services.  The InAppSDK framework relies on this client for making
+   secure service calls to the services.  Visit http://developer.payeezy.com for documentation and an
+   interactive sandbox for experimenting with the Payeezy API's
+   
+- MockAcadiaAPIs.framework: This framework contains mock versions of the ApplePay API's.  Its
+   purpose is to allow developers to start integrating In-App payments without having 
+   access to the ApplePay API's and/or an iPhone 6.  Once the 
+  
+The app comes configured with test credentials that can be used to send simulated transactions
+to our test environment.  Once you become a registered developer you can replace the
+test credentials with your personal credentials.  The demo app maintains the credentials in
+AppDelegate.h
+
+The app is also configured with a test credit card (see AppDelegate.m lines 34-43).  This is
+not a valid credit card - it can only be used to send simulated transactions to the
+First Data test environment.
+
+Much of the interesting bits of this sample resides in ViewController.m :
+
+- The method 'payClicked' demonstrates how to construct a payment request and display
+  the payment sheet that the user authorizes the payment through.
+  
+- The implementation of the FDPaymentAuthorizationViewControllerDelegate shows how to receive
+  callbacks from the SDK.  Note that you must implement the FDPaymentAuthorizationViewControllerDelegate
+  protocol in an appropriate class and send that instance to the call to
+  presentPaymentAuthorizationViewControllerWithPaymentRequest.
+    
+  
+Please visit http://developer.payeezy.com for support options.

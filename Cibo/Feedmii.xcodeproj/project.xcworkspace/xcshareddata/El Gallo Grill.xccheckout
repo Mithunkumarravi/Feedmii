@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8B552401-7964-442D-9B7D-CD0AB856BB72</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2f6dd3ac-734c-db11-98db-00123f83b708++8820</key>
+		<string>https://svn.intra.sina.com.cn/wap/trunk/client/onsite/SinaWeiBoSDK/trunk/src/src</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2f6dd3ac-734c-db11-98db-00123f83b708++8820</key>
+		<string>src/</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>2f6dd3ac-734c-db11-98db-00123f83b708++8820</key>
+		<string>https://svn.intra.sina.com.cn/wap</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://svn.intra.sina.com.cn/wap/trunk/client/onsite/SinaWeiBoSDK/trunk/src/src</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2f6dd3ac-734c-db11-98db-00123f83b708++8820</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2f6dd3ac-734c-db11-98db-00123f83b708++8820</string>
+			<key>IDESourceControlWCCName</key>
+			<string>src</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterViewController">
+            <connections>
+                <outlet property="address" destination="39" id="214"/>
+                <outlet property="cardExDate" destination="nrt-FE-TDm" id="oMJ-fN-gae"/>
+                <outlet property="ccv2Number" destination="qSO-be-4LG" id="3D8-aH-q4b"/>
+                <outlet property="city" destination="V1b-sl-MCV" id="J5p-dq-djQ"/>
+                <outlet property="country" destination="45" id="219"/>
+                <outlet property="craditNumber" destination="g6I-n0-lJn" id="WEh-Nz-L5t"/>
+                <outlet property="dOB" destination="42" id="216"/>
+                <outlet property="detailScrollView" destination="6" id="251"/>
+                <outlet property="email" destination="38" id="215"/>
+                <outlet property="firstName" destination="41" id="212"/>
+                <outlet property="lblSignUp" destination="10" id="ksq-9h-bHc"/>
+                <outlet property="mobilenumber" destination="EaQ-8I-KYP" id="nAI-ER-ept"/>
+                <outlet property="password" destination="36" id="223"/>
+                <outlet property="phonenumber" destination="JpO-SG-APS" id="fzH-MW-t7C"/>
+                <outlet property="postcode" destination="GBP-Ut-rd9" id="YxF-cV-Cwi"/>
+                <outlet property="registerButton" destination="9" id="636"/>
+                <outlet property="state" destination="ibn-d9-fgh" id="Yoj-cM-f4h"/>
+                <outlet property="surName" destination="40" id="213"/>
+                <outlet property="titelLabel" destination="10" id="622"/>
+                <outlet property="username" destination="415" id="621"/>
+                <outlet property="view" destination="4" id="1Op-6X-HWI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="4">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="main_bg2.png" id="8">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="578"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="top_bg.png" id="Jma-H3-tfY">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="TILMELD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="10">
+                    <rect key="frame" x="78" y="14" width="165" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6">
+                    <rect key="frame" x="0.0" y="80" width="320" height="479"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="Lcz-mj-L3R">
+                            <rect key="frame" x="0.0" y="61" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="ptd-dz-IkN">
+                            <rect key="frame" x="0.0" y="102" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="z9o-AU-E5D">
+                            <rect key="frame" x="0.0" y="143" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="3y0-RE-bYi">
+                            <rect key="frame" x="0.0" y="184" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="PPa-cX-oVB">
+                            <rect key="frame" x="0.0" y="225" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="HXW-sJ-RkO">
+                            <rect key="frame" x="0.0" y="266" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="Ey9-hP-Jfh">
+                            <rect key="frame" x="0.0" y="307" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="Cne-Fc-YXh">
+                            <rect key="frame" x="0.0" y="348" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="mIE-6v-1DG">
+                            <rect key="frame" x="0.0" y="389" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="z2H-dk-9th">
+                            <rect key="frame" x="0.0" y="430" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="MHK-L0-rwk">
+                            <rect key="frame" x="0.0" y="471" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="oep-ov-QwF">
+                            <rect key="frame" x="0.0" y="512" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" minimumFontSize="17" id="48">
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="199"/>
+                                <outlet property="delegate" destination="-1" id="660"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="land *" textAlignment="center" minimumFontSize="17" id="45">
+                            <rect key="frame" x="0.0" y="352" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="198"/>
+                                <outlet property="delegate" destination="-1" id="659"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Telefonnummer" textAlignment="center" minimumFontSize="17" id="JpO-SG-APS">
+                            <rect key="frame" x="0.0" y="434" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="ggu-Mm-hNx"/>
+                                <outlet property="delegate" destination="-1" id="C6B-wK-byE"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobil nummer *" textAlignment="center" minimumFontSize="17" id="EaQ-8I-KYP">
+                            <rect key="frame" x="0.0" y="392" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="cZT-ZJ-piG"/>
+                                <outlet property="delegate" destination="-1" id="l6w-h5-mwj"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Postnummer" textAlignment="center" minimumFontSize="17" id="GBP-Ut-rd9">
+                            <rect key="frame" x="0.0" y="473" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="0Ox-jF-QQ8"/>
+                                <outlet property="delegate" destination="-1" id="nwf-K2-u1m"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="State" minimumFontSize="17" id="44">
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="197"/>
+                                <outlet property="delegate" destination="-1" id="228"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="city" minimumFontSize="17" id="43">
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="196"/>
+                                <outlet property="delegate" destination="-1" id="229"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="DOB: yyyy/mm/dd" textAlignment="center" minimumFontSize="17" id="42">
+                            <rect key="frame" x="0.0" y="229" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="195"/>
+                                <outlet property="delegate" destination="-1" id="658"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fornavn *" textAlignment="center" minimumFontSize="17" id="41">
+                            <rect key="frame" x="0.0" y="23" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="191"/>
+                                <outlet property="delegate" destination="-1" id="653"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Efternavn *" textAlignment="center" minimumFontSize="17" id="40">
+                            <rect key="frame" x="0.0" y="64" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="192"/>
+                                <outlet property="delegate" destination="-1" id="654"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="adresse" textAlignment="center" minimumFontSize="17" id="39">
+                            <rect key="frame" x="0.0" y="106" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="193"/>
+                                <outlet property="delegate" destination="-1" id="655"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email*" textAlignment="center" minimumFontSize="17" id="38">
+                            <rect key="frame" x="0.0" y="147" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="194"/>
+                                <outlet property="delegate" destination="-1" id="656"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Brugernavn*" textAlignment="center" minimumFontSize="17" id="415">
+                            <rect key="frame" x="0.0" y="188" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="418"/>
+                                <outlet property="delegate" destination="-1" id="657"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="State*" textAlignment="center" minimumFontSize="17" id="ibn-d9-fgh">
+                            <rect key="frame" x="0.0" y="311" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="SOR-qL-bwe"/>
+                                <outlet property="delegate" destination="-1" id="bDI-uK-rKg"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile number" minimumFontSize="17" id="47">
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="200"/>
+                                <outlet property="delegate" destination="-1" id="661"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Post code" minimumFontSize="17" id="46">
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="201"/>
+                                <outlet property="delegate" destination="-1" id="662"/>
+                            </connections>
+                        </textField>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="exc-R7-gbf">
+                            <rect key="frame" x="0.0" y="553" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Cradit Card Number" textAlignment="center" minimumFontSize="17" id="g6I-n0-lJn">
+                            <rect key="frame" x="0.0" y="557" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="vNT-5j-I4p"/>
+                                <outlet property="delegate" destination="-1" id="Ais-9A-Oeu"/>
+                            </connections>
+                        </textField>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="BM5-3c-zQ2">
+                            <rect key="frame" x="0.0" y="594" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="CCV2" textAlignment="center" minimumFontSize="17" id="qSO-be-4LG">
+                            <rect key="frame" x="0.0" y="597" width="160" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="h8s-nv-d4z"/>
+                                <outlet property="delegate" destination="-1" id="1d2-If-pEy"/>
+                            </connections>
+                        </textField>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="0kI-tZ-aaN">
+                            <rect key="frame" x="0.0" y="594" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="yzX-Ta-1E3">
+                            <rect key="frame" x="0.0" y="635" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Ex. Date" textAlignment="center" minimumFontSize="17" id="nrt-FE-TDm">
+                            <rect key="frame" x="160" y="599" width="160" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="etF-7f-7Gw"/>
+                                <outlet property="delegate" destination="-1" id="34y-7b-Dyf"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9">
+                            <rect key="frame" x="20" y="635" width="280" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <state key="normal" title="Register" backgroundImage="login.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clicOnRegisterButton:" destination="-1" eventType="touchUpInside" id="189"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginfield.png" id="ONi-Cm-wPG">
+                            <rect key="frame" x="0.0" y="20" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password*" textAlignment="center" minimumFontSize="17" id="36">
+                            <rect key="frame" x="0.0" y="516" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="202"/>
+                                <outlet property="delegate" destination="-1" id="663"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="by*" textAlignment="center" minimumFontSize="17" id="V1b-sl-MCV">
+                            <rect key="frame" x="0.0" y="268" width="320" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            <connections>
+                                <action selector="KeyboardGone:" destination="-1" eventType="editingDidEndOnExit" id="yZq-wc-w95"/>
+                                <outlet property="delegate" destination="-1" id="1OZ-Vi-N6j"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="652"/>
+                    </connections>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7Xa-d0-3TP">
+                    <rect key="frame" x="10" y="25" width="50" height="28"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" backgroundImage="black cancel butoon.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clickOnBackButton:" destination="-1" eventType="touchUpInside" id="sri-Gy-8xq"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="279" y="295.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="black cancel butoon.png" width="77" height="42"/>
+        <image name="login.png" width="563" height="94"/>
+        <image name="loginfield.png" width="690" height="1"/>
+        <image name="main_bg2.png" width="750" height="1334"/>
+        <image name="top_bg.png" width="690" height="118"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

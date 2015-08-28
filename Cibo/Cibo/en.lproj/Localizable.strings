@@ -1,0 +1,96 @@
+/* 
+  Localizable.strings
+  Cibo
+
+  Created by mithun ravi on 30/05/13.
+  Copyright (c) 2013 mithun ravi. All rights reserved.
+*/
+"Cibo"="Cibo";
+"Login..."="Login...";
+
+"January"="January";
+"February"="February";
+"March"="March";
+"April"="April";
+"May"="May";
+"June"="June";
+"July"="July";
+"August"="August";
+"September"="September";
+"October"="October";
+"November"="November";
+"December"="December";
+
+"Please enter username."="Please enter username.";
+"Please enter password."="Please enter password.";
+"Successfully Login."="Successfully Login.";
+"username/password is not correct"="username/password is not correct";
+"Update profile..."="Update profile...";
+"Please enter first name."="Please enter first name.";
+"Please enter sur name."="Please enter sur name.";
+"Please enter email address."="Please enter email address.";
+"Please enter date of birth."="Please enter date of birth.";
+"Please enter city."="Please enter city.";
+"Please enter state."="Please enter state.";
+"Please enter country."="Please enter country.";
+"Please enter mobile number."="Please enter mobile number.";
+"internet not connected with device."="internet not connected with device.";
+"Please valid email address."="Please valid email address.";
+"Registering..."="Registering...";
+"Some connection issue." ="Some connection issue.";
+"Your Info..."="Your Info...";
+"internet not connected with device."="internet not connected with device.";
+"Please valid email address."="Please valid email address.";
+"Your profile Info..."="Your profile Info...";
+"Update successfully done."="Update successfully done.";
+"Try again."="Try again.";
+"Loading Spacial offer..."="";
+"Successfully loaded."="Successfully loaded.";
+"Items:"="Items:";
+"some issue in setmenu sub category"="some issue in setmenu sub category";
+"Event Loading..."="Event Loading...";
+"Do you want to attend this event."="Do you want to attend this event.";
+"Yes I Want"="Yes I Want";
+"Cancel"="Cancel";
+"Fetch Gallery data..."="Fetch Gallery data...";
+"Update..."="Update...";
+"Category"="Category";
+"Done"="Done";
+"Image Loading..."="Image Loading...";
+"Loading done."="Loading done.";
+"Want to be call"="Want to be call";
+"Call"="Call";
+"phone"="phone";
+"No website available in this"="No website available in this";
+"Restaurent"="Restaurent";
+"OK"="OK";
+"Update..."="Update...";
+"Some connection issue."="Some connection issue.";
+"Date"="Date";
+"Time"="Time";
+"Please select room before"="Please select room before";
+"Choosing time"="Choosing time";
+"OK"="OK";
+"ROOM"="ROOM";
+"Person"="Person";
+"Booking..."="Booking...";
+"Please select room"="Please select room";
+"Please select date"="Please select date";
+"Please select time"="Please select time";
+"Please select no of person"="Please select no of person";
+"Getting Time..."="Getting Time...";
+"Getting Room..."="Getting Room...";
+"No Room available"="No Room available";
+"in this restaurent"="in this restaurent";
+"Table successfully booked."="Table successfully booked.";
+"Please try again."="Please try again.";
+"Loading done."="Loading done.";
+"Not Loaded"="Not Loaded";
+"Loading done."="Loading done.";
+"Location"="Location";
+"Address:"="Address:";
+"Phone No.:"="Phone No.:";
+"Website:"="Website:";
+"USERNAME"="USERNAME";
+"PASSWORD"="PASSWORD";
+
